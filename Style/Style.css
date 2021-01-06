@@ -1,0 +1,187 @@
+.page-full{
+  margin: 0 auto;
+  max-width: 1200px;
+  
+}
+
+.dropbtn {
+background-color: white;
+color: black;
+padding: 16px;
+font-size: 16px;
+border: none;
+width: 250px;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f1f1f1;
+min-width: 250px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content li {
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a {
+color: black;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {color: red;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: red;}
+
+.glyphicon{color: red;}
+
+.fist{
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.mid{
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.col-md-3 img{
+  padding-bottom: 20px;
+}
+#demo{
+  float:right;
+}
+.ranger{
+  background-image: linear-gradient(to right, red ,grey);
+  height: 45px;
+}
+.ranger p{
+  font-size: 20px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+#grad p {
+  background-image: linear-gradient(to right, red ,grey);
+  height: 45px;
+}
+#grad{
+  width: 50%;
+}
+#grad p {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px
+}
+.fa-star{
+  color:yellow;
+}
+#thanhngang{
+  color: white;
+  width: 100%;
+  background-image: linear-gradient(to right, red, violet);
+  height: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 10px
+}
+.tapchi {
+  padding-left: 20px
+}
+.tapchi h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.tapchi p {
+  margin-top: -20px;
+  font-size: 12px;
+}
+.carousel-control{
+  opacity: .2;
+}
+#tapchi{
+  border-style: groove;
+}
+.pngg img{
+  padding-top: 20px;
+  width: 48px ;
+  height: auto;
+}
+.pngg form{
+  padding-top: 20px;
+}
+.footer{
+  margin-top: 30px;
+  padding-top: 10px;
+  background-color: #ebebe0;
+  max-width: 1200px;
+  padding-left: 15px;
+}
+.footer img{
+  margin-left: -20px;
+}
+h4{
+  font-weight: 700;
+}
+.nav-tabs>li>a{
+  text-decoration: none;
+  color: black;
+}
+a{
+  color: grey;
+}
+a:hover{
+  text-decoration: none;
+  color: red;
+}
+.navbar-inverse{
+  background-color: #eaeae1;
+  border-color: #eaeae1;
+}
+.fa-shopping-cart{
+  font-size: 20px;
+  padding-top: 20px;
+}
+.navbar-left {
+  padding-top: 10px;
+}
+.fa-user{
+  font-size: 20px;
+  padding-top: 20px;
+}
+.reg{
+  padding-top: 10px;
+}
+.navbar-inverse .navbar-nav>li>a{
+  color: black;
+}
+p{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+#center{
+  text-align: center;
+}
+.maudo{ color: red; }
+.xanhla{
+  color: greenyellow;
+}
+.xanhtr{
+  color: blue;
+}
+.mautim{
+  color: violet;
+}
